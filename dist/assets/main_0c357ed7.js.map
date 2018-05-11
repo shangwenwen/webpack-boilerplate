@@ -1,1 +1,0 @@
-{"version":3,"file":"main_0c357ed7.js","sources":["webpack:///./src/index.js"],"sourcesContent":["import React from 'react'\r\nimport ReactDOM from 'react-dom'\r\nimport App from './APP'\r\n\r\nReactDOM.render(\r\n\t<App />,\r\n\tdocument.getElementById(\"root\")\r\n)\r\n"],"mappings":"AAAA","sourceRoot":""}
