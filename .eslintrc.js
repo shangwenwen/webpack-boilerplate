@@ -26,7 +26,6 @@ module.exports = {
     "no-obj-calls": 2,
     "no-sparse-arrays": 2,
     "valid-typeof": 2,
-
     "curly": 2,
     "default-case": 2,
     "dot-notation": 2,
@@ -74,9 +73,7 @@ module.exports = {
     "no-shadow": [2, { "hoist": "functions" }],
     "no-undef": 2,
     "no-unused-vars": 2,
-
     "no-new-require": 2,
-
     "array-bracket-spacing": [2, "never"],
     "brace-style": [2, "stroustrup", {"allowSingleLine": false}],
     "comma-spacing": [2, {"before": false, "after": true}],
@@ -102,7 +99,6 @@ module.exports = {
     "space-infix-ops": 2,
     "space-return-throw-case": 0,
     "space-unary-ops": [1, { "words": true, "nonwords": false }],
-
     "arrow-spacing": 2,
     "constructor-super": 2,
     "generator-star-spacing": [2, "after"],
@@ -116,10 +112,8 @@ module.exports = {
     "prefer-spread": 2,
     "prefer-template": 2,
     "require-yield": 2,
-
     "max-params": [2, 6],
     "no-plusplus": 2,
-
     "no-console": 1,
     "no-debugger": 1,
     "semi": [1, "never"],
