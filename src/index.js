@@ -1,8 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './APP'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { Router } from 'react-router-dom';
+import { configureStore, history } from './_helpers';
+
+import AppContainer from './APP';
+
+const store = configureStore();
 
 ReactDOM.render(
-	<App />,
-	document.getElementById('root')
-)
+  <Provider store={store}>
+    <Router history={history}>
+      <AppContainer />
+    </Router>
+  </Provider>,
+  document.getElementById('root')
+);

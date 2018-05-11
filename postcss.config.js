@@ -10,13 +10,13 @@ const config = (target) => {
     require('postcss-media-minmax'), // 响应式设计
     require('postcss-image-set-polyfill'), // 响应式图片
     require('autoprefixer') // 自动添加 CSS3 前缀
-  ]
+  ];
 
   if (target === 'production') {
-    plugins.push(require('cssnano')({reduceIdents: false}))
+    plugins.push(require('cssnano')({ reduceIdents: false }));
   }
 
-  return plugins
-}
+  return plugins;
+};
 
-module.exports = config
+module.exports = config;

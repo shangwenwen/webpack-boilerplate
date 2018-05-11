@@ -8,7 +8,7 @@
   "scripts": {
     "preproduction": "rm -rf dist",
     "production": "yarn run eslint && webpack --mode production --progress --colors",
-    "start": "webpack-dev-server --mode development --progress --colors --hot --port 8080",
+    "start": "webpack-dev-server --mode development --progress --colors --hot --inline --port 8080",
     "eslint": "eslint webpack.config.js postcss.config.js src/**/*.js --fix"
   },
   "browserslist": [
@@ -28,6 +28,7 @@
   "devDependencies": {
     "autoprefixer": "^8.4.1",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -37,7 +38,8 @@
     "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0",
+    "eslint-config-alloy": "^1.4.2",
+    "eslint-plugin-react": "^7.8.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
