@@ -9,7 +9,7 @@
     "preproduction": "rm -rf dist",
     "production": "yarn run eslint && webpack --mode production --progress --colors",
     "start": "webpack-dev-server --mode development --progress --colors --hot --port 8080",
-    "eslint": "eslint webpack.config.js postcss.config.js src/*/*.js --fix"
+    "eslint": "eslint webpack.config.js postcss.config.js src/**/*.js --fix"
   },
   "browserslist": [
     "> 1%",

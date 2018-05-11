@@ -90,7 +90,7 @@ module.exports = {
     "no-new-object": 2,
     "no-trailing-spaces": [2, { "skipBlankLines": true }],
     "object-curly-spacing": [2, "never"],
-    "quotes": [2, "single", "avoid-escape"],
+    "quotes": [1, "single", "avoid-escape"],
     "sort-vars": 2,
     "space-after-keywords": 0,
     "space-before-keywords": [0, "always"],
