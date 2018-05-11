@@ -4,8 +4,9 @@ class HomeContainer extends Component {
 
   render() {
     return (
-      <div>homesssssssss</div>
+      <div>home</div>
     );
   }
 }
+
 export default HomeContainer;
