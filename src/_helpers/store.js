@@ -3,7 +3,7 @@ import createSagaMiddleware from 'redux-saga';
 import rootReducer from '../_reducers';
 import rootSaga from '../_sagas';
 
-export const configureStore = () => {
+export const configureStore = (preloadedState) => {
   const sagaMiddleware = createSagaMiddleware();
 
   /* eslint-disable */
@@ -19,7 +19,7 @@ export const configureStore = () => {
   }
   /* eslint-enable */
 
-  const store = createStore(rootReducer, middleware);
+  const store = createStore(rootReducer, preloadedState, middleware);
 
   sagaMiddleware.run(rootSaga);
 
