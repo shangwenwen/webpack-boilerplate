@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
+
+// components & containers
 import HomeContainer from '../HomePage';
 
+// css style
 import '../_assets/style.css';
-
 
 class AppContainer extends Component {
 
@@ -23,8 +25,8 @@ class AppContainer extends Component {
   }
 }
 
+// connect redux
 const mapStateToProps = (state) => {
-  console.log(state);
   return {
     user: state.user
   };
