@@ -14,7 +14,6 @@ class AppContainer extends Component {
   render() {
     return (
       <div className="main">
-        <img src={require('../_assets/01.jpg')} />
         <div className="container">
           <Switch>
             <Route exact path="/" component={HomeContainer} />

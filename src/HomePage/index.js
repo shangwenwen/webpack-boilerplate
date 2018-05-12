@@ -4,7 +4,7 @@ class HomeContainer extends Component {
 
   render() {
     return (
-      <div>home shang lihao</div>
+      <div>shang</div>
     );
   }
 }
